@@ -16,5 +16,12 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12
         {
             InitializeComponent();
         }
+         
+        private void buttonProducts_KSJ_Click(object sender, EventArgs e)
+        {
+            panelProduct_KSJ.Visible = true;
+        }
+
+
     }
 }
