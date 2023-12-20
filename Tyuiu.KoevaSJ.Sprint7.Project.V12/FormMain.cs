@@ -15,6 +15,8 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12
         public FormMain()
         {
             InitializeComponent();
+
+
         }
          
         private void buttonProducts_KSJ_Click(object sender, EventArgs e)
@@ -22,6 +24,9 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12
             panelProduct_KSJ.Visible = true;
         }
 
+        private void panelProduct_KSJ_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
