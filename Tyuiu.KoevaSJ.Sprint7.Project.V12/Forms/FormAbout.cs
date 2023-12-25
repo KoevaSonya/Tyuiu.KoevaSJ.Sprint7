@@ -21,5 +21,15 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
