@@ -53,5 +53,10 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12
         {
             OpenChildForm(new Forms.FormHelp(), sender);
         }
+
+        private void buttonMain_KSJ_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormBack(), sender);
+        }
     }
 }

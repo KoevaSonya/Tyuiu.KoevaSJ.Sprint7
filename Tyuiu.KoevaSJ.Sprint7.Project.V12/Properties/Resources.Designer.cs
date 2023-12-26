@@ -103,6 +103,16 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap computer {
+            get {
+                object obj = ResourceManager.GetObject("computer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap snapedit_1703525426424 {
             get {
                 object obj = ResourceManager.GetObject("snapedit_1703525426424", resourceCulture);
@@ -126,6 +136,26 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12.Properties {
         internal static System.Drawing.Bitmap прога {
             get {
                 object obj = ResourceManager.GetObject("прога", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2023_12_26_230520 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2023-12-26 230520", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2023_12_26_2305201 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2023-12-26 2305201", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

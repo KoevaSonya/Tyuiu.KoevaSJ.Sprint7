@@ -117,21 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox2.Text" xml:space="preserve">
-    <value>
-Разработчик: Коева Софья Юрьевна 
-
-группа: АСОиУб-23-1
-
-почта: koevasonya_0902@mail.ru
-
-
-
-Программа разработана в рамках изучения языка C#
-
-Тюменский индустриальный университет (с) 2023
-Высшая школа цифровых технологий (с) 2023
-
-Внутренние имя: Tyuiu.KoevaSJ.Sprint7.Project.V12</value>
-  </data>
 </root>

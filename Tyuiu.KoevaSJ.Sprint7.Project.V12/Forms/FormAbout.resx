@@ -117,16 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox3.Text" xml:space="preserve">
-    <value>Приложение предоставляет такие функции как: 
+  <data name="textBoxTextAbout_KSJ.Text" xml:space="preserve">
+    <value>                     
+                        ФУНКЦИИ ПРИЛОЖЕНИЯ:
 
-1) Формирование базы данных внутри приложения 
-2) Редактирование базы данных 
-3) Изъятие данных из файла 
-4) Сохранение в файл 
-5) Поиск 
-6) Сортировка 
-
+     1) Создание базы данных внутри приложения 
+     2) Изъятие данных из файла 
+     3) Редактирование базы данных 
+     4) Поиск по таблице 
+     5) Сохранение данных в файл 
+     6) Сортировка данных
 </value>
   </data>
 </root>

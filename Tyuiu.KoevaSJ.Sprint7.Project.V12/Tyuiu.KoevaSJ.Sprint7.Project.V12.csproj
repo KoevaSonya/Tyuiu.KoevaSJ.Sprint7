@@ -58,6 +58,12 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBack.Designer.cs">
+      <DependentUpon>FormBack.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormHelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBack.resx">
+      <DependentUpon>FormBack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormHelp.resx">
       <DependentUpon>FormHelp.cs</DependentUpon>
@@ -130,6 +139,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\chart_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2023-12-26 230520.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2023-12-26 2305201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
