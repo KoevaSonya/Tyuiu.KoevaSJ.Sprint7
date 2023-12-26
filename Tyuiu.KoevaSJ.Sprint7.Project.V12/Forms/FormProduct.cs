@@ -14,16 +14,16 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12.Forms
 {
     public partial class FormProduct : Form
     {
-        public BindingList<Product> productList;
+        public BindingList<Product> productList; //привязка данных
         private BindingSource bindingSource;
-        private SortOrder currentSortOrder = SortOrder.Ascending;
+        private SortOrder currentSortOrder = SortOrder.Ascending; //сортировка будет выполняться в возрастающем порядке
         public FormProduct()
         {
             InitializeComponent();
             productList = new BindingList<Product>();
             bindingSource = new BindingSource(productList, null);
 
-            dataGridViewTable_KSJ.DataSource = bindingSource;
+            dataGridViewTable_KSJ.DataSource = bindingSource; //отображение данных
         }
 
 
@@ -146,7 +146,7 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12.Forms
                 {
                     if (!row.IsNewRow)
                     {
-                        string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(cell => cell.Value.ToString()));
+                        string line = string.Join(",", row.Cells.Cast<DataGridViewCell>().Select(cell => cell.Value.ToString())); //при сохранении данные создаются строками и разделаются запятой 
                         lines.Add(line);
                     }
                 }
@@ -260,7 +260,7 @@ namespace Tyuiu.KoevaSJ.Sprint7.Project.V12.Forms
 
         private void textBoxPrice_KSJ_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar); // только циферки)
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar); // можно вводить только цифры
         }
 
         private void saveFileDialog_KSJ_FileOk(object sender, CancelEventArgs e)
